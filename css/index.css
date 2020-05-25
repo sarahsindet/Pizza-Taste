@@ -48,3 +48,25 @@
     text-align: center;
     margin-top: 5%;
     }
+    .contact-overlay {
+        background-image: url("../images/image\ 3.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      
+      .click-me{
+        color: white;
+      
+      }
+      .btn click-me{
+          background-color: chartreuse;
+      }
+      button:hover:before{
+        width: 200%;
+        height: 300px;
+      }
+      button:hover{
+        border: 3px dotted #33aa77;
+        color:palegoldenrod;
+        background-color: peachpuff;
+      }
