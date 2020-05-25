@@ -66,21 +66,21 @@
                   <label for="">Choose Pizza Topping: </label>
                   <select required class="form-control" id="Topping1">
                     <option></option>
-                    <option value="pineapple">Pineapple-mince @ 150</option>
-                    <option value="Green">Green peper @50</option>
-                    <option value="Mushroom">Mushroom sweet @ 100</option>
-                    <option value="Chicken">Cheese mince @ 60</option>
-                    <option value="Beef">Black Olive @ 80</option>
-                    <option value="Sausage">Red Onions @ 100</option>
+                    <option value="pineapple">Pineapple-mince </option>
+                    <option value="Green">Green peper </option>
+                    <option value="Mushroom">Mushroom sweet </option>
+                    <option value="Chicken">Cheese mince </option>
+                    <option value="Beef">Black Olive </option>
+                    <option value="Sausage">Red Onions </option>
                   </select>
                 </div><br>
                 <div id="pizzaTopping2">
                   <label for="">Additional Toppings: </label>
                   <select required class="form-control" id="Topping2">
                     <option></option>
-                    <option value="Peparoni">Cheese peparoni @ 180</option>
-                    <option value="Sausage">tomatoes @ 100</option>
-                    <option value="Sausage">Bacon 30 @</option>
+                    <option value="Peparoni">Cheese peparoni </option>
+                    <option value="Sausage">tomatoes</option>
+                    <option value="Sausage">Bacon </option>
                   </select>
                 </div><br><br>
 
@@ -90,64 +90,34 @@
                   <input required type="number" class="form-control" id="pizza-number" min="1"
                     placeholder="how many pizza's please at your service">
                 </div><br>
-                <a href="#summary">
-                    </button>
-                    <button type="button" class="btn btn-success checkout" id="checkout">
-                        Checkout
-                    </button>
-                    <button type="button" class="btn btn-success checkout" id="refresh">
-                        Refresh
-                    </button>
-                </a>
-
-            </div>
-         </form>
-        </div>
-    </div> 
-    
-    <div class="receipt-purchase" id="sum-order">
-        <h1 class="text-center" id="receipt">Receipt-Purchase</h1>
-        <div id="cart">
-            <table class="table" id="tablecart">
-                <thead>
-                    <tr>
-                        <th scope="col">Size</th>
-                        <th scope="col">Crust</th>
-                        <th scope="col">Topping1</th>
-                        <th scope="col">Topping2</th>
-                        <th scope="col">Number</th>
-                        <th scope="col">Total</th>
-                    </tr>
-                </thead>
-                <tbody>
-                </tbody>
-            </table>
-        </div>
-        <h2 class="text-center summary">Access location details</h2>
-      
-    </div>
-    <div class="d-block mx-auto text-center">
-        <button type="submit" class="deliver">Make Delivery</button>
-        <button type="submit" class="pick-up" id="pickup">Pick Up</button>
-    </div> 
-    <div class="cdata-overlay" style="display: none;">
-        <div class="customerdata row">
-            <div class="col-sm-3"></div>
-            <form action="" class="form-group col-sm-6 data" id="data">
-                <input type="text" class="form-control cdata" id="name" placeholder="Enter your Name:">
-                <input type="text" class="form-control cdata" id="phone" placeholder="Enter your phone number: ">
-                <input type="text" class="form-control cdata" id="location" placeholder="Enter the location: ">
-                <button class="btn bg-info text-center d-block mx-auto go" id="go" type="submit">Make
-
-                </button>
+                <button type="submit" class="btn btn-info" id="send">Order</button>
             </form>
+          </div>
+          <div class="col-md-6" id="price">
+            <h4>Price: <span id="totalPizzaCost"></span></h4>
+            <div id="order-details">
+              <p><a id="pizzaDetails">Pizza Details</a></p>
+              <p id="pizzaDetail">
+              </p>
+              <div class="deliver-pick">
+                <button type="btn" class="btn btn-primary" id="deliver">Delivery</button>
+                <ul id="deliveryPrice"></ul>
 
-            <div class="col-sm-3"></div>
+                <button type="btn" class="btn btn-primary" id="pickup">Pick up</button>
+              </div><br>
+            </div>
+
+            <button type="btn" class="btn btn-primary" id="checkout">Checkout</button>
+            <h3><span id="check"></span></h3>
+          </div>
         </div>
+      </div>
     </div>
+  </div>
+</div>
     
-</div> 
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/scripts.js"></script>
 </body>
+
 </html>
