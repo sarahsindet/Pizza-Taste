@@ -1,8 +1,25 @@
-.jumbotron{ 
-    background-repeat:no-repeat;
-    background-size: 100%;
-    padding-bottom: 8%;
-    width: auto;
-    
-  
+#pic{
+    float:left;
+    border-radius: 50%;
+    background-color: black;
+    border-radius: 50%;
+    width: 200px;
+    position: center;
+}
+.nav li {
+    display: inline-block;
+    margin: 2%;
+  } 
+  /* Style the navigation bar */
+  .nav {
+    width: 100%;
+    background-color:black;
+    overflow: auto;
+    position: sticky;
   }
+  
+  
+  .nav a:hover {
+    background-color:gainsboro;
+  }
+  
