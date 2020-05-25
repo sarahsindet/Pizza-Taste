@@ -25,4 +25,26 @@
   .pik{
       margin-top: 190px;
   }
-  
+  #pizzaDetails{
+    display: none;
+    cursor: pointer;
+    text-decoration:underline;
+    color: aqua;
+    font-size:20px;
+    }
+    #pizzaDetail{
+    display: none;
+    }
+    #deliver{
+    display: none;
+    }
+    #pickup{
+    display: none;
+    }
+    #checkout{
+    display: none;
+    }
+    #Cost{
+    text-align: center;
+    margin-top: 5%;
+    }

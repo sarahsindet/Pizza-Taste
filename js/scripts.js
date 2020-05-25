@@ -92,7 +92,7 @@ $("button#deliver").click(function(event){
 })
 $("button#pickup").click(function(event){
    event.preventDefault();
-   alert("Thank you");
+   alert("Thank you enjoy your pizza!");
    $("#checkout").show();
 })
 $("button#checkout").click(function(event){
