@@ -62,8 +62,8 @@
                     <option value="gluten">glutten pizza</option>
                   </select>
                 </div><br>
-                <div id="pizzaTopping1">
-                  <label for="">Choose Pizza Topping1: </label>
+                <div id="pizzaTopping">
+                  <label for="">Choose Pizza Topping: </label>
                   <select required class="form-control" id="Topping1">
                     <option></option>
                     <option value="pineapple">Pineapple-mince @ 150</option>
@@ -101,5 +101,33 @@
                 </a>
 
             </div>
+         </form>
+        </div>
+    </div> 
+    
+    <div class="receipt-purchase" id="sum-order">
+        <h1 class="text-center" id="receipt">Receipt-Purchase</h1>
+        <div id="cart">
+            <table class="table" id="tablecart">
+                <thead>
+                    <tr>
+                        <th scope="col">Size</th>
+                        <th scope="col">Crust</th>
+                        <th scope="col">Toppings</th>
+                        <th scope="col">Number</th>
+                        <th scope="col">Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+        <h2 class="text-center summary">Provide location details</h2>
+      
+    </div>
+    <div class="d-block mx-auto text-center">
+        <button type="submit" class="deliver">Make Delivery</button>
+        <button type="submit" class="pick-up" id="pickup">Pick Up</button>
+    </div>
 </body>
 </html>
